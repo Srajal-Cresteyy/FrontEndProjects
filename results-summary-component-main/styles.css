@@ -1,0 +1,163 @@
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+
+.base{
+    /* display: inline; */
+    /* background-color: blueviolet; */
+    width:300px;
+    height:400px; 
+    margin-left: 40%;
+    margin-top: 10%;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+#inner-base{
+    /* background-color: blue; */
+    height:140px;
+    width: 140px;
+    position: relative;
+    left: 28%;
+    top: 23%;
+    border-radius: 50%;
+    text-align: center;
+    color:white;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+
+#main{
+    position: relative;
+    top:20px;
+    font-size:60px;
+}
+
+#sub{
+    position:relative;
+    bottom:30px;
+    font-size: small;
+    opacity: 40%;;
+}
+
+#result{
+    position:relative;
+    font-size: 20px;
+    bottom: 120px;
+    opacity:80%;
+}
+
+#great{
+    /* position: relative; */
+    /* top:50px; */
+    font-size:30px;
+}
+
+#para{
+    /* position:relative; */
+    /* top:100px; */
+    /* padding: 50px 45px; */
+    text-align: center;
+    font-size: 15px;
+    opacity: 70%;
+}
+
+
+.surround{
+    position: relative;
+    padding:40px 40px;
+    bottom: 28px;
+}
+
+/* Second Card CSS */
+
+.second-base{
+    position: relative;
+    bottom: 400px;
+    left: 700px;
+    height: 340px;
+    width: 400px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+    border-radius: 0 3% 3% 0;
+    z-index: -1;
+    box-shadow: 0 4px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+.block{
+    width:200px;
+    height: 30px;
+    background-color: hsl(221, 100%, 96%);
+    border-radius: 5px;
+    /* padding-top: 3px;
+    padding-left: 10px;
+     */
+    position: relative;
+    left: 175px;
+    bottom: 20px;
+    margin:30px;
+
+}
+
+.image-icon{
+    display: inline;
+    position: relative;
+    top:4px;
+}
+
+.text{
+    display:inline;
+    position: relative;
+    /* padding-top: 10px; */
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+#summary{
+    position: relative;
+    left: 200px;
+    bottom: 18px;
+    /* z-index: 10px; */
+}
+
+.B{
+    position: relative;
+    left: 45px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.btn {
+    position: relative;
+    left: 195px;
+    bottom:20px;
+    background: hsl(252, 100%, 67%);
+    background-image: -webkit-linear-gradient(top, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    background-image: -moz-linear-gradient(top, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    background-image: -ms-linear-gradient(top, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    background-image: -o-linear-gradient(top, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 100px;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 75px 10px 75px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: hsl(224, 30%, 27%);
+    background-image: -webkit-linear-gradient(top, hsl(224, 30%, 27%), hsl(224, 30%, 27%));
+    background-image: -moz-linear-gradient(top, hsl(224, 30%, 27%), hsl(224, 30%, 27%));
+    background-image: -ms-linear-gradient(top, hsl(224, 30%, 27%), hsl(224, 30%, 27%));
+    background-image: -o-linear-gradient(top, hsl(224, 30%, 27%), hsl(224, 30%, 27%));
+    background-image: linear-gradient(to bottom, hsl(224, 30%, 27%), hsl(224, 30%, 27%));
+    text-decoration: none;
+  }  
+
+  .outer{
+    position:relative;
+    top:0px;
+    right:130px;
+  }
